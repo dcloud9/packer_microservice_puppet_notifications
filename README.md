@@ -1,6 +1,6 @@
-# packer\_microservice\_puppet\_payments
+# packer\_microservice\_puppet\_notifications
 
-... used to build role AMIs for the payments product
+... used to build role AMIs for the notifications product
 
 ## Structure
 
