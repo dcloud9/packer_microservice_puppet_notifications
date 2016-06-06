@@ -27,7 +27,7 @@ export AWS_REGION:=eu-west-1
 
 # ... EUROSTAR_RELEASE_VERSION overriden from THIS repo's checked-out
 #     tag if one exists (e.g when building a release)
-export EUROSTAR_RELEASE_VERSION:=alpha
+#export EUROSTAR_RELEASE_VERSION:=alpha
 export EUROSTAR_SERVICE_NAME:=notifications
 export EUROSTAR_SERVICE_ROLE:=glusterfs
 export PUPPET_PRODUCT=notifications
