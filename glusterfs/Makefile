@@ -8,7 +8,7 @@ export METRICS_REMOTE_PORT?=
 
 ### ABOUT BUILD SOURCES
 #   ... packer_includes
-export PACKER_INCLUDES_GIT_TAG:=2.0.5
+export PACKER_INCLUDES_GIT_TAG:=2.0.4
 #   ... ami sources
 export AMI_SOURCE_CHANNEL:=stable
 export AMI_SOURCE_PREFIX:=eurostar_monlog
