@@ -1,8 +1,6 @@
 # vim: ts=4 st=4 sr noet smartindent:
 # SET THESE VARS BEFORE RUNNING make build:
 # ... we don't want them committed to public scm
-export ACTIVEMQ_USER?=
-export ACTIVEMQ_PASS?=
 export AWS_ACCESS_KEY_ID?=
 export AWS_SECRET_ACCESS_KEY?=
 export METRICS_REMOTE_HOST?=
@@ -10,7 +8,7 @@ export METRICS_REMOTE_PORT?=
 
 ### ABOUT BUILD SOURCES
 #   ... packer_includes
-export PACKER_INCLUDES_GIT_TAG:=2.0.6
+export PACKER_INCLUDES_GIT_TAG:=2.0.7
 #   ... ami sources
 export AMI_SOURCE_CHANNEL:=stable
 export AMI_SOURCE_PREFIX:=eurostar_monlog
