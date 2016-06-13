@@ -16,7 +16,7 @@ export AMI_SOURCE_PREFIX:=eurostar_monlog
 #   ... puppet sources (eif_puppet)
 # ... using 2.0.0: app_version instead of build_id for deployer
 export PUPPET_BRANCH=notification
-export PUPPET_GIT_TAG=1.0.2
+export PUPPET_GIT_TAG=1.0.3
 export PUPPET_REPO=git@github.com:dcloud9/eif_puppet.git
 
 ### ABOUT AWS ...
